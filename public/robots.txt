@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tasteai-504e35f1.zappy5.app/sitemap.xml
