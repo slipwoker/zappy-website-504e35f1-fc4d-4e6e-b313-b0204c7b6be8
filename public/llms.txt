@@ -1,6 +1,4 @@
-# TasteAI — Generative Engine Optimization Map
-
-> A אוכל ובישול business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -44,15 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About TasteAI
-TasteAI is a business in the אוכל ובישול industry.
-
-## Target Audience
-אנשים שמחפשים מתכונים קלים להכנה בבית
-
-## Industry
-אוכל ובישול
-
+## About Business
 ---
 
 # Additional Resources

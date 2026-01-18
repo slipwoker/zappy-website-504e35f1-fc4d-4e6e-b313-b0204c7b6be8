@@ -62,7 +62,7 @@
   opacity: 0.7;
 }</style>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -323,22 +323,22 @@
   <div class="container nav-container">
     <div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="TasteAI" class="logo" />
+        <img src="/assets/business-logo.webp" alt="TasteAI" class="logo">
       </a>
     </div>
     
     <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
       <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
       <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
     
     <button class="phone-header-btn" aria-label="התקשרו אלינו">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
       </svg>
     </button>
     
@@ -358,30 +358,30 @@
 
 <section class="page-header">
   <div class="container">
-    <h1>צרו קשר</h1>
+    <h1 style="font-weight: 600;">צרו קשר</h1>
     <h3>יש לכם שאלות? אנחנו כאן כדי לעזור</h3>
   </div>
 </section>
 
-<section class="contact-content">
+<section class="contact-content" id="zappy-section-1">
   <div class="container">
     <div class="contact-intro">
       <p>אנחנו באתר המתכונים TasteAI תמיד שמחים לשמוע מכם! בין אם יש לכם שאלות על מתכון ספציפי, רוצים לשתף אותנו ברעיון למתכון חדש, או סתם רוצים לספר לנו על החוויה שלכם עם המתכונים שלנו - נשמח לשמוע מכם.</p>
-      <p>הצוות שלנו זמין לענות על כל שאלה הקשורה למתכונים קלים להכנה בבית, מדריכי בישול, או השימוש באתר. אנחנו מחויבים לספק לכם את השירות הטוב ביותר ולעזור לכם להצליח בכל מתכון.</p>
+      <p>הצוות זמין לענות על כל שאלה הקשורה למתכונים קלים להכנה בבית, מדריכי בישול, או השימוש באתר. מחויבים לספק לכם את השירות הטוב ביותר ולעזור לכם להצליח בכל מתכון.</p>
     </div>
 
-    <div class="contact-grid">
-      <div class="contact-form-section">
-        <h2>שלחו לנו הודעה</h2>
+    <div class="contact-grid zappy-preserve-css-grid" data-original-item-width="696" data-original-gap="48px" style="display: grid; --zappy-grid-cols: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);" data-zappy-explicit-columns="true">
+      <div class="contact-form-section" data-grid-item-index="0">
+        <h2 style="font-weight: 500;">שלחו לנו הודעה</h2>
         <form class="contact-form" id="contactForm">
           <div class="form-group">
             <label for="name">שם מלא *</label>
-            <input type="text" id="name" name="name" required="">
+            <input type="text" id="name" name="name" required>
           </div>
           
           <div class="form-group">
             <label for="email">אימייל *</label>
-            <input type="email" id="email" name="email" required="">
+            <input type="email" id="email" name="email" required>
           </div>
           
           <div class="form-group">
@@ -391,7 +391,7 @@
           
           <div class="form-group">
             <label for="subject">נושא</label>
-            <select id="subject" name="subject">
+            <select id="subject" name="subject" class="zappy-editable-dropdown">
               <option value="general">שאלה כללית</option>
               <option value="recipe">שאלה על מתכון</option>
               <option value="suggestion">הצעה למתכון חדש</option>
@@ -402,34 +402,34 @@
           
           <div class="form-group">
             <label for="message">הודעה *</label>
-            <textarea id="message" name="message" rows="6" required=""></textarea>
+            <textarea id="message" name="message" rows="6" required></textarea>
           </div>
           
-          <button type="submit" class="btn btn-primary">שלח הודעה</button>
+          <button type="submit" class="btn btn-primary" data-element-type="button" data-element-id="btn-1768756959934-06bttulpl" data-native-element="true">שלח הודעה</button>
         </form>
       </div>
 
-      <div class="contact-info-section">
-        <h2>פרטי התקשרות</h2>
+      <div class="contact-info-section" data-grid-item-index="1">
+        <h2 style="font-weight: 500;">פרטי התקשרות</h2>
         <div class="contact-info-card">
           <div class="info-item">
-            <i class="fas fa-envelope"></i>
+            <i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1768756959938-h57lnnv39" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             <div>
               <h3>אימייל</h3>
-              <a href="mailto:tasteai262@gmail.com">tasteai262@gmail.com</a>
+              <a href="mailto:tasteai262@gmail.com" data-original-href="mailto:tasteai262@gmail.com">tasteai262@gmail.com</a>
             </div>
           </div>
           
           <div class="info-item">
-            <i class="fas fa-phone"></i>
+            <i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1768756959938-6v55b9282" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             <div>
               <h3>טלפון</h3>
-              <a href="tel:0503073332">0503073332</a>
+              <a href="tel:0503073332" data-original-href="tel:0503073332">0503073332</a>
             </div>
           </div>
           
           <div class="info-item">
-            <i class="fas fa-map-marker-alt"></i>
+            <i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1768756959938-nvkz92xi9" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             <div>
               <h3>כתובת</h3>
               <p>כתובת החברה, ישראל</p>
@@ -457,7 +457,7 @@
 
 <section class="faq-section">
   <div class="container">
-    <h2>שאלות נפוצות</h2>
+    <h2 style="font-weight: 500;">שאלות נפוצות</h2>
     <div class="faq-grid">
       <div class="faq-item">
         <h3>איך אני יכול להציע מתכון חדש לאתר?</h3>
@@ -491,8 +491,8 @@
           <div class="all-rights-reserved">
             <p>© 2026 TasteAI. כל הזכויות שמורות.</p>
           </div>
-          <div class="footer-social"><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style="display:none;" style="display:none;" style="display:none;" style="display:none;"><i class="fab fa-facebook"></i></a>
-<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none;" style="display:none;" style="display:none;" style="display:none;"><i class="fab fa-instagram"></i></a>
+          <div class="footer-social"><a href="https://facebook.com/#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com/#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
 <a href="https://wa.me/972503073332" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
           <div class="footer-legal">
             <a href="/privacy" aria-label="מדיניות פרטיות">
