@@ -1,51 +1,61 @@
-# Business — Generative Engine Optimization Map
+# TasteAI — Generative Engine Optimization Map
+
+> A אוכל ובישול business.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://example.com
+https://tasteai.zappy5.app
 גלו אתר מתכונים חדשני עם בינה מלאכותית. מתכונים קלים להכנה בבית, מדריכי בישול ודירוגים מקצועיים.
 
 ### מתכונים
-https://example.com/recipes
+https://tasteai.zappy5.app/recipes
 אוסף ענק של מתכונים קלים להכנה בבית עם דירוגים, ביקורות והמלצות. מתכונים מהירים לארוחת ערב, קינוחים ועוד.
 
 ### מדריכים
-https://example.com/guides
+https://tasteai.zappy5.app/guides
 למדו טכניקות בישול מקצועיות עם המדריכים המפורטים שלנו. מתכונים עם בינה מלאכותית וטיפים מומחים.
 
 ### אודות
-https://example.com/about
+https://tasteai.zappy5.app/about
 הכירו את TasteAI - אתר המתכונים המוביל בישראל. גלו את החזון שלנו להפוך בישול ביתי לקל, נגיש ומהנה עם בינה מלאכותית.
 
 ### צור קשר
-https://example.com/contact
+https://tasteai.zappy5.app/contact
 יש לכם שאלות על המתכונים או המדריכים שלנו? צרו קשר עם הצוות של TasteAI ונשמח לעזור לכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://tasteai.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://tasteai.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://tasteai.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About TasteAI
+TasteAI is a business in the אוכל ובישול industry.
+
+## Target Audience
+אנשים שמחפשים מתכונים קלים להכנה בבית
+
+## Industry
+אוכל ובישול
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://tasteai.zappy5.app/sitemap.xml
+- **Robots.txt**: https://tasteai.zappy5.app/robots.txt
